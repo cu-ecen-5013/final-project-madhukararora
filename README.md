@@ -1,6 +1,6 @@
 # Environment Monitoring system
 
-This repository contains the application implementation on the BBB.
+This repository contains the buildroot repository for the BBB.
 
 [Project Overview](https://github.com/cu-ecen-5013/final-project-akshita-bhasin/wiki/Project-Overview)
 
