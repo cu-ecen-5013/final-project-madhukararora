@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 290efad6d8d15e026df7555958a8d5d5edea40a4
+AESD_ASSIGNMENTS_VERSION = ac229eee63889455ff8d9423ffde32817173a588
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-akshita-bhasin.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
@@ -21,6 +21,7 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	# $(INSTALL) -m 0755 $(@D)/tester.sh $(TARGET_DIR)/bin
 	# $(INSTALL) -m 0755 $(@D)/finder.sh $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/hello_world $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/uart $(TARGET_DIR)/bin
 endef
 
 
