@@ -1,6 +1,6 @@
 From 3e53602b4159a3f1f2eff8fd9b1913a38d3868c6 Mon Sep 17 00:00:00 2001
 From: Akshita Bhasin <akshita.bhasin@colorado.edu>
-Date: Mon, 26 Jan 2015 10:36:08 +0100
+Date: Fri, 17 April 2020 10:36:08 -0700
 Subject: [PATCH] enable-i2c1: enable and configure i2c-1
 ---
  arch/arm/boot/dts/am335x-bone.dtsi | 15 +++++++++++++++++
