@@ -6,7 +6,11 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference aesd project details
+<<<<<<< HEAD
 AESD_ASSIGNMENTS_VERSION = 5e8c6143a986e7ae9e37eb9c8e6c6d9db72b6922
+=======
+AESD_ASSIGNMENTS_VERSION = f89924edc597741079b144cd2d2c9b0fb236ab04
+>>>>>>> 7b0afef96d9f79adb2f6648b0f66555123b98a6a
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-akshita-bhasin.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
