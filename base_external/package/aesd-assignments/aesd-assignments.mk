@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference aesd project details
-AESD_ASSIGNMENTS_VERSION = d17bbff1a9e919f2339dfd4cac82cc168b02ab91
+AESD_ASSIGNMENTS_VERSION = eb6a913687cd4cc7f451545710af8a0c8568cba4
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-akshita-bhasin.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
@@ -17,7 +17,6 @@ endef
 #TODO: Add required executables or scripts below
 define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/environmental_monitoring $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/client $(TARGET_DIR)/bin
 
 endef
 
